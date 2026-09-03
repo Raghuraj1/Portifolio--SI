@@ -11,6 +11,11 @@ body{
     line-height: 1.6;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+
 .mainContainer{
     display: grid;
     max-width: 800;
@@ -108,11 +113,15 @@ body{
     border-bottom: 2px solid #3a3a3a;
     margin-bottom: 20px;
     padding-bottom: 20px;
+    
 }
 nav{
     display: flex;
     justify-content: flex-end;
     gap: 10px;
+    position:sticky;
+    right: 70px;
+    backdrop-filter: blur(6px);
 }
 
 nav a{
@@ -284,7 +293,6 @@ nav a:hover{
         grid-template-columns: 1fr;
         padding: 20px;
     }
-
     .sideBar{
         position: static;
         height: auto;
