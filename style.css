@@ -17,6 +17,7 @@ body{
     grid-template-columns: 350px 1fr;
     gap: 50px;
     margin: 40px;
+    padding: auto;
 }
 
 .sideBar{
@@ -25,13 +26,14 @@ body{
     border: 1px solid #3a3a3a;
     border-radius: 16px;
     padding: 40px;
+
 }
 
 .mainContent{
-    height: 90vh;
     background-color: #2a2a2a;
     border: 1px solid #3a3a3a;
     border-radius: 16px;
+    padding: 40px;
 }
 
 .profile{
@@ -100,7 +102,6 @@ body{
 }
 
 .navigation{
-    padding: 30px 40px;
     border-bottom: 2px solid #3a3a3a;
     margin-bottom: 20px;
     padding-bottom: 20px;
@@ -119,4 +120,46 @@ nav a{
 
 .active, nav a:hover{
     color:#FFBF00
+}
+
+.line{
+    width: 40px;
+    height: 5px;
+    background-color: #FFBF00;
+    margin-bottom: 15px;
+}
+
+.content{
+    text-align: justify;
+}
+
+.heading{
+    color: #e0e0e0;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px,1fr));
+    gap: 40px;
+}
+
+.item img{
+    height: 48px;
+    width: 48px;
+    filter: invert(75%) sepia(50%) saturate(1000%) hue-rotate(350deg) brightness(110%) contrast(101%);
+}
+
+.item{
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #3a3a3a;
+    background-color: #1e1e1e;
+    text-align: center;
+}
+
+.item h3{
+    font-size: 1rem;
+    font-weight: 500;
 }
