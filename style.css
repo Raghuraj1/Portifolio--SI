@@ -61,3 +61,36 @@ body{
     display: inline-block;
     margin-top: 10px;
 }
+
+.contact{
+    margin-top: 10px;
+    border-top: 2px solid #3a3a3a;
+}
+
+.label{
+    font-weight: 500;
+    font-size: 0.8rem; 
+}
+
+.value{
+    color: #e0e0e0;
+}
+
+.email, .phone, .location{
+    margin-top: 15px;
+}
+
+.social{
+    margin-top: 10px;
+    border-top: 2px solid #3a3a3a;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.social img{
+    height: 24px;
+    width: 24px;
+    filter: grayscale(1) invert(0.7);
+    padding: 2px;
+}
