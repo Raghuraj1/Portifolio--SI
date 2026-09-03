@@ -203,6 +203,7 @@ nav a{
 }
 .educ{
     position: relative;
+    margin-top: 45px;
 }
 .goal{
     height: 15px;
@@ -222,4 +223,47 @@ nav a{
     bottom: 0px;
     left: 5px;
     border: 2px solid #3a3a3a;
+}
+
+.project-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+
+}
+
+.project img{
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.project{
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    border: 1px solid #3a3a3a;
+    overflow: hidden;
+}
+.card{
+    margin: 20px;
+}
+
+.card h3{
+    color: #e0e0e0 ;
+    margin-bottom:10px ;
+}
+.card p{
+    color: #a0a0a0;
+    line-height: 1.6;
+    text-align: start;
+    margin-bottom: 15px;
+}
+
+.card span{
+    background-color: rgba(255,191,0,0.1);
+    color: #FFBF00;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    margin-right: 5px;
 }
